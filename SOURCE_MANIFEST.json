@@ -1,0 +1,602 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "c552da43becd094a019cc6889aa6a74df72afc579d5384d19738853f310e5ed8"
+  },
+  {
+    "path": "AssetsSource/AppIcon.icon/Assets/d0266ced00a3b36e7e6400593fc9397be9d051b1a87ac918f22e87ce476a5504 2.png",
+    "sha256": "5536a03d0ec37ce1feafc9df68a0dd8b92656c6f7038c274e568840605a68071"
+  },
+  {
+    "path": "AssetsSource/AppIcon.icon/Assets/d0266ced00a3b36e7e6400593fc9397be9d051b1a87ac918f22e87ce476a5504.png",
+    "sha256": "8cdadbe7383104f576bf51f7106eaa909944bac90688074c834a62ce3fa4ba23"
+  },
+  {
+    "path": "AssetsSource/AppIcon.icon/Assets/ff5f36fb315f71ae6e22b5e75b0606a8d1de02e2410486e2e01855644fcd1cd7.png",
+    "sha256": "d9f6c9184bdc0a36d357a8bba06f2dcd0e38dbb0feaa03f997a17723275a8cca"
+  },
+  {
+    "path": "AssetsSource/AppIcon.icon/Assets/horse.png",
+    "sha256": "5249d739bbdc4faa49b3ecc76b389ee415f402cea73cece718d6baa886e56c80"
+  },
+  {
+    "path": "AssetsSource/AppIcon.icon/icon.json",
+    "sha256": "73f6fc60332deff57b2ded4106b2f804a220642bdba7027b0a261e5f326c501f"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "3f185aa1d1d5f293e9fb9ae5d3b0f4acaa553d8c387a0c0474ab875c201928fc"
+  },
+  {
+    "path": "Config/AppVersion.xcconfig",
+    "sha256": "aaef4681645417000a255dff6dd970a2c79e3e7323553313e13b093b9c2bda30"
+  },
+  {
+    "path": "Config/Common.xcconfig",
+    "sha256": "fd1640aef787f14246c531e0d57749f78f3164577b738b3c90b2ede9e9db27e6"
+  },
+  {
+    "path": "Config/Dev.xcconfig",
+    "sha256": "2d5c83eb78190502eacf3cf595b5a33abd72449ac573f0804622679b601b3dc2"
+  },
+  {
+    "path": "Config/LocalOverrides.example.xcconfig",
+    "sha256": "907bfa8569ecd90ad43b9f75f006608f2e6fce031e577fae953d949bd04fc19b"
+  },
+  {
+    "path": "Config/PublicSourceFiles.json",
+    "sha256": "0816ea004b51e83e8469bf227b14e73595f17c08528bb776aae70e15525eebd6"
+  },
+  {
+    "path": "Config/Test.xcconfig",
+    "sha256": "331ce13782fa98e39bc18c06c66675073a55417eb64266ec8343f3feea8e232e"
+  },
+  {
+    "path": "HorseWhisprer.xcodeproj/project.pbxproj",
+    "sha256": "4e8c8f7678a129060c3382b5a2a3bf237c51849b06a2d46fa36b7f69fc04f603"
+  },
+  {
+    "path": "HorseWhisprer.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+  },
+  {
+    "path": "HorseWhisprer.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved",
+    "sha256": "dc49501d7849f34d6a0854fba80b1f3031afa858906d5313f485202c133fa9ba"
+  },
+  {
+    "path": "HorseWhisprer.xcodeproj/xcshareddata/xcschemes/HorseWhisprer.xcscheme",
+    "sha256": "269cc5afa246ce1f71982188c959cf34609db40a4d70cba3b5330fcbeebd18c5"
+  },
+  {
+    "path": "HorseWhisprer.xcodeproj/xcshareddata/xcschemes/HorseWhisprerDev.xcscheme",
+    "sha256": "f1556e4c633e25d78632f931a115e1129ca757974b2030a73bc55cd5d79ad010"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "c4a6c6a125c48f1b6fce287db947eb2a891b914c1790931fbb8377a1166d3e52"
+  },
+  {
+    "path": "README.md",
+    "sha256": "0b713e01193d26ce01f11fc6dd8af8d5fbd2b7dc06a6deec839030d8d26436f3"
+  },
+  {
+    "path": "SECURITY.md",
+    "sha256": "ece04f4f20eb7b99498cf5029265ecb58166be70018be862bc70408b5ef8ce64"
+  },
+  {
+    "path": "Sources/HorseWhisprer/App/AppDelegate.swift",
+    "sha256": "9fbcebbf1246f8fc3d38921e56f3826e40afabe9af6082d7c0fa1ebb36c68528"
+  },
+  {
+    "path": "Sources/HorseWhisprer/App/AppDistribution.swift",
+    "sha256": "39ac0bd7d9cdf79a5d91a4e145ac640a481dc812fa94245334f7cea9fe40dbbe"
+  },
+  {
+    "path": "Sources/HorseWhisprer/App/AppModel.swift",
+    "sha256": "4e8c9d9d6e8f950ee9aabc90412c4d2e4c2c7f3ce1eb053d799257b4fef3f06b"
+  },
+  {
+    "path": "Sources/HorseWhisprer/App/DictationPillController.swift",
+    "sha256": "bebb59f77d09cfee310404c4095a5149937733fe04e94fdfa2b2ffc0ae6c570a"
+  },
+  {
+    "path": "Sources/HorseWhisprer/App/HorseWhisprerApp.swift",
+    "sha256": "4e763388689610c237a298db254e6a5353791495437251efeb7dedb9be40b53b"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "sha256": "fd62c72482a200be31beefeacd22582182828322e523947c8d778ac34d4f1c1b"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_128x128.png",
+    "sha256": "2e18434eb2af99950662e03d8dfeca484359cc1c823eeea68c106dc83c72694d"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png",
+    "sha256": "957cc758396142ab7d640f28a361e9156f78d5b04cc2e63d1c1062f453baaa71"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_16x16.png",
+    "sha256": "542e33fe4884a621b27450a166c24c52c82e612708adedcb6982ff1e4030802a"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_16x16@2x.png",
+    "sha256": "00c003e9e1f697b3ca79aa185ffe81cf2d61629f9cbb8f4e3d0ddaed8ad80be0"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_256x256.png",
+    "sha256": "957cc758396142ab7d640f28a361e9156f78d5b04cc2e63d1c1062f453baaa71"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_256x256@2x.png",
+    "sha256": "a8d0b831daea15ceab9d5029d062ac04c16564d2fc4682a43fe753c07a937d1d"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_32x32.png",
+    "sha256": "00c003e9e1f697b3ca79aa185ffe81cf2d61629f9cbb8f4e3d0ddaed8ad80be0"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png",
+    "sha256": "deb66b7f5a1cc54b6a58614628a85897ee35b52c87a015985f233d228c233cf6"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+    "sha256": "a8d0b831daea15ceab9d5029d062ac04c16564d2fc4682a43fe753c07a937d1d"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png",
+    "sha256": "e3f03d489dbada3cf70c7458718ae0772d498eb3708c6964a40f63797f35aa50"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Assets.xcassets/Contents.json",
+    "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Credits.rtf",
+    "sha256": "fc24221fed18b9eaf1452aeeb327671962fab99bd08a0f50469175b758c62f8f"
+  },
+  {
+    "path": "Sources/HorseWhisprer/HorseWhisprer.entitlements",
+    "sha256": "3d759be3e6758ea805b8df2ab005021723c27a33ffd9ffa87e5d730f67bd4fba"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Info.plist",
+    "sha256": "f9da054713dd1dd2f072404d746d7f752fe0d53bf3a2f06d823dcae1f56efdfe"
+  },
+  {
+    "path": "Sources/HorseWhisprer/MenuBarHorseTemplate.fixed.png",
+    "sha256": "611f089b674d4e59b69e8548de746cfb1d5d3c2611801641eaa6bd3c08a40bc3"
+  },
+  {
+    "path": "Sources/HorseWhisprer/MenuBarHorseTemplate.png",
+    "sha256": "611f089b674d4e59b69e8548de746cfb1d5d3c2611801641eaa6bd3c08a40bc3"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/ASRModels.swift",
+    "sha256": "b5861d2da23d9cc3b3bbfd20744607217ddd43af36c5457c43c3de22e01e8416"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/CoordinatorState.swift",
+    "sha256": "a70740bd706171527b932463e9d4cf9e735e8c86b22a97123999a24b29ee485b"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/InsertionModels.swift",
+    "sha256": "f2eb82ebb7e4cd8dd2666e76b34e6cd425eae50a248bc59569c15782805af055"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/InterfaceModels.swift",
+    "sha256": "10a32bcbfd4263c9dea95b81914dc661c37e8354bc3f35ed65de6d9eed25693a"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/NativeASRModels.swift",
+    "sha256": "252ec9bb0549b32e0837a0d3cc6c6c4a7e1cc36abec396017abb4de08e9ccc44"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/OnboardingModels.swift",
+    "sha256": "d734da7ab987f5ea8d0aa577bc3c59b53119717c1c16162cc2785b19f1666cb5"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/RecordingCueCatalog.swift",
+    "sha256": "4a9e9c4235868c0ae66ec4d517a53ac6cd2a69e9a1fb7b10538634748dcb0908"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/StreamingInsertionMode.swift",
+    "sha256": "1c7a75e44cc29efc9e2f21dd0a9dc402258b55e15311520820a801812985a65e"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/TextReplacement.swift",
+    "sha256": "6d436dc2452d99ff969b25a4ee4672a384fdd45e92929e060ba6c66364df20dd"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Models/TranscriptRecord.swift",
+    "sha256": "bf51cfffcbf731db7751692dd2c3be520cb5fcf10799057b5cce980b713a3f90"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Resources/FluidAudio-Licenses.txt",
+    "sha256": "ca54e1f34a7ed0caa43262c2b2c02daa867ccadaefd84b99a6d773cffa48de68"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/AppSettings.swift",
+    "sha256": "72972621b3a12992aef5d324741d9b2b374025d771ebff310e0c064e916d6194"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/AppendOnlyTextInsertion.swift",
+    "sha256": "93e09a784bc1f505f10ddb0f753dafe10660da55af4e0a5caab403ccf9490c38"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/AudioDiagnostics.swift",
+    "sha256": "846ad1a7dab87f4a24592ec857ccc97787a4765777433e69416620048a0e9a5d"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/AudioQueueCapture.swift",
+    "sha256": "5504661f70c982065a6c67f85c1fa865c69da049e3485e9bf19071fa0daf0f6a"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/CueRoutePlanner.swift",
+    "sha256": "a69a2386f5a149e826ae2b8c58869b81f16a03ed480ea58b43362b94b844b963"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/CueWaveData.swift",
+    "sha256": "62ff395d0721d2485c0fa908fd560743680f9ae3283e5652a6a5f0af843a1853"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/HotKeyController.swift",
+    "sha256": "e0237837ad918d39d688bece9563d658b729f4e79d0f4a40912b305eb722548f"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/InsertionDiagnostics.swift",
+    "sha256": "fc6af903b4a0650a5d85d088c5260cbc34125b532ebf551499a3b35ffa7c3186"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/LiveTextInsertion.swift",
+    "sha256": "385ec96ef3ed80edab587cd7d48dbfb028fcc22849e00621b0d3f3d508120ed7"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/ModelCatalogService.swift",
+    "sha256": "2880fe7468fedbfaeea7c153e19236e56aa947715272863edc77e0563250f3c1"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/ModelInstallService.swift",
+    "sha256": "c1ea6f3ba3c667c8234747addb0bd5ba988aa624cd6eb32ca1023abddeb40469"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/NativeASRRuntime.swift",
+    "sha256": "c89d58d3928b4a5d62e2fcf72c4bec0071c7d304b523f2b1c554289ba2c5fa8b"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/NativeDownloadLease.swift",
+    "sha256": "57d5dee4bd486fd85751bc79a3b9916bf1047c765bca451f590e7dbfd1d3dfdb"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/NativeModelStore.swift",
+    "sha256": "110afd3f15bc178e27d3c1f0c119db3ded6653969e1f2a97477cb00020f1703a"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/PermissionService.swift",
+    "sha256": "38f1d22dc9b4a454a12b16665fb3b79b58a5973441558a61f1cda1e8816e3b23"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/RecordingController.swift",
+    "sha256": "cf2de1aa420cd640adac486aef520cddc1f0d89c626ab3e0b4c2062aa1327e26"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/RecordingFeedbackService.swift",
+    "sha256": "0d2cc413758acf96d9a363ec739afff724bd207d8a5d6e1458cc77d6bfdec4d7"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/RecordingOutputAudioService.swift",
+    "sha256": "6e80eb6c804d2e0c1446d7b27a632178e986f32cd27d0a246b08705ff51f6dd0"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/SparkleUpdateService.swift",
+    "sha256": "67b7708bbd333cff53640aca61701320d9e4ed35b0691aeebafbc025602be83a"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/StreamingAudioCapture.swift",
+    "sha256": "e2dc00c26827aecfc52723edf30bb59575a2a24a39b0a4f29073d84c6c9a95db"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/StreamingPCMConverter.swift",
+    "sha256": "999327fb222a4641fc88c15eb4d2496912f96f3e5f42c358251fca1d2f0b7f72"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/TextInsertionService.swift",
+    "sha256": "65d99cccb1e5f674b7e6aa169a87d42adb99b6e61fc2bbca8a0a3e343bca947a"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/TranscriptHistoryStore.swift",
+    "sha256": "2be66ab0860f45792e3f8dc68322c9e932fb2f5d12290faf8d235cfad41b1773"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/TranscriptionCoordinator.swift",
+    "sha256": "6bfa007080a20ae98526d915c14ac26b4ec83d300c5b440602f12d423911d46d"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/TranscriptionOutputFiles.swift",
+    "sha256": "0d9a9cf2d2272766d0819f2a8eac910bb448c14f277f92a2cccefc5f78147048"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/TriggerController.swift",
+    "sha256": "73c9222c7ed77ce1e0d6505dc33bc673f54e5ea42b097305befbf929065f0d1f"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/WhisperCLIEngine.swift",
+    "sha256": "ab1b180d00041798980c27aad7e1221ada6344272d8183987312765dd67b8346"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Services/WhisperProcessRunner.swift",
+    "sha256": "84d549605c93c6bd2baec3466b1c55620f4635ae652133410c9ba58f79426958"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Support/AppPaths.swift",
+    "sha256": "d1dff76a27a4e75917ab2bf8e0720bcd5ae7bc08715f479b7114f43b40606927"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Support/FilePicker.swift",
+    "sha256": "aba0846a6a8b98790d81c69d84e3167e5ab3ae58dd13f92598f27c50883b31a6"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Components/HotKeyRecorderField.swift",
+    "sha256": "1bbdd8b50f39940a2aa3678858dadfbbca2a8f34ce5474e0c399bb89c2b277ed"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Components/KeyCapsView.swift",
+    "sha256": "ad17df0e7997f65a3e99a81bcaa9ebbd3e1011aff785d63c7ec31de802553b7e"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Components/SectionCard.swift",
+    "sha256": "488a55727d564d39c2596b661b8713cab3dc6ffa022fb906ec4c807bc2e89ac6"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/DictationPillView.swift",
+    "sha256": "2bdc2beeed4d5a11a105d4a6e68464422f23dbd9137bf84a14791d47c383018d"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/MenuBarPopoverView.swift",
+    "sha256": "4ac765ebf9b289a96bcb958fc13f04732805eec1f3e1d3d5e261dc2e2d239db1"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/OnboardingWizardView.swift",
+    "sha256": "2437ff233f95da24699572447ef702cba320b26066a6a5a4852aa30dec296341"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Panes/AboutPane.swift",
+    "sha256": "b061cc28d935ad62954631ae9ab75e286d3a44c85bb4f8dc4fb7c95895b8eef7"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Panes/AdvancedPane.swift",
+    "sha256": "6fba0f84cab296ee9165013f3d02b6f19391d701ba290b41c555d7796b6bb7dd"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Panes/DictationPane.swift",
+    "sha256": "9e8fc1ee4ab4b7945459e030f526b1dffb6a758dd71c92c85c4fdf984e67c1ed"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Panes/GeneralPane.swift",
+    "sha256": "facd240852de21e6b87d46b2577a7e5c16a4d16719deb502f17123c210464017"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Panes/HistoryPane.swift",
+    "sha256": "142cde9c0e7d93727b442c4797021598e27ddef16c909ef0472579626e78cc3e"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Panes/ModelsPane.swift",
+    "sha256": "1c94472879e67ecf5d7144b491ab5355e5c1bc5466abd1c7bc73d48199c10553"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/Panes/PermissionsPane.swift",
+    "sha256": "12a7330dc07b3280aadabe3c90140da281a9600d87ffb02db022833b983c9755"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/SettingsView.swift",
+    "sha256": "896a1e8d160ab49ed745f2ddc7341d94aa90719c4b195560d5604bd93fd49939"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/StreamingPreferencesView.swift",
+    "sha256": "66d3e9af1b117eb86c6fafb97e26b874b04f06638d50c7da042faf61107b536f"
+  },
+  {
+    "path": "Sources/HorseWhisprer/Views/TranscriptCopyButton.swift",
+    "sha256": "a69cb6c099999e1e13b3cc157d56980a7d1c2b5c8c2d0aa008b6aad802e70de8"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "sha256": "c2b80aa1f556b8f3228c5460e37f2013edcb1fb2283d2eb964c527c0fade27ae"
+  },
+  {
+    "path": "TRADEMARKS.md",
+    "sha256": "a06ba7bc8ffdf6b8a5f081fb1aabf080a37d2907cfb34900abd42621fa2e4978"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/AppDistributionTests.swift",
+    "sha256": "67d3785a3882bdf5ef2596794940e52cf18bfa929e1ffb34e966717a96dafbe5"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/AppendOnlyTextInsertionTests.swift",
+    "sha256": "d7e85a9366b095d49c57d797275821127cc46e8292337510393cc68765cb1fb6"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/AudioQueueCaptureTests.swift",
+    "sha256": "98e038c6bed4d79b13680acc6ebf39440db011f0f9a08531b4fd9a2231e21cad"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/CueRoutePlannerTests.swift",
+    "sha256": "9a54d68bc8f6f59a74a9bcbe269262e2718f7c1bc4791675eed2d8e6c7e33a71"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/CueWaveDataTests.swift",
+    "sha256": "8eb534444ebc4350283913335176ddf3080a241d91f4e89fb64f531d13cdf25e"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/DictationCancelTests.swift",
+    "sha256": "7701ba55b52f7c6e7ecd804dc4295f9a6d135e4b7c5653e45e6a9fd1d96a8455"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/DictationSessionTests.swift",
+    "sha256": "23783cc307605a5c5720e9b401fd1274658d2b251ba6084f03391c9cb84c36fb"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/FreeDistributionTests.swift",
+    "sha256": "bc4090c912671b821827a9dd927e1d68c58f09c582c869e59c934e97f68a99e1"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/HotKeyBindingTests.swift",
+    "sha256": "8eff7eeae78be45190b55ca6c25c9365dd7eed262a5c0433d20f2b93eba74772"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/InsertBehaviorTests.swift",
+    "sha256": "c8d2f475708c15fea6ec2c01c2ef0bde7987a6482539dc15988d764d79c19b6e"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/InterfaceLogicTests.swift",
+    "sha256": "ae50106935a1c124b7d54d27d2d679eba69078bda283df273691658bf92c6942"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/LiveTextInsertionTests.swift",
+    "sha256": "0ad42ff8337478b0ed641e9831a366edd81f33437122dbc6b98b08f66a0b9ce5"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/ModelCatalogTests.swift",
+    "sha256": "34953b32e0fa8054f0107ce99f83dc4c7ece8e4d57531432daf530fa81385530"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/ModelInstallServiceTests.swift",
+    "sha256": "f6c8dfd2363802edc93851b004478bac7fae64203d0bbca5fbac6bd834d4e25c"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/ModelInstallStateTests.swift",
+    "sha256": "1ba7b29f874cfa228b44d655de84f32fe9324ba2a6ce75acae1c3d999cf8200a"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/NativeDictationTests.swift",
+    "sha256": "5b25b20231b633c2916cca2bd7cb20852ef1fa81930b638d59899dd6c7f1780f"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/NativeModelSmokeTests.swift",
+    "sha256": "369e8b454a4fea22239cc137028734ed65a7c50fe2bc8f4ffa78e97479fa8201"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/NativeModelStoreTests.swift",
+    "sha256": "4653c2fe6442b87a9219ac90ef4768a8a946021601cbc1dd94045086e3f56e77"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/RecordingCueSoundCatalogTests.swift",
+    "sha256": "39a8dfcea09defd02ba81315df620a1bbe59aaf4723a20d8723aac3bae0b8e41"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/RecordingFeedbackServiceTests.swift",
+    "sha256": "2bfc48bb7eba14d87dfed320081baa90016c5d5be7b617ea412ba84759f6c940"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/RecordingOutputAudioServiceTests.swift",
+    "sha256": "261c01cc1bc6fc437c55715f461ee24bcce912add183ab9e0141b51c5026ea48"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/SpecialKeyTriggerDetectorTests.swift",
+    "sha256": "ee1d84d4f4570106ec68558493d8583481681124198c3893731452d12357a69e"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/StartupAudioIntegrationTests.swift",
+    "sha256": "91adb3d97c07179d3d12e198b80634b9df459a20d8645f5e9b7199a10db3ed32"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/StreamingInsertionModeTests.swift",
+    "sha256": "ea82a7ac864d8f5604865762fd7be88812a5869a87fe8e0651858bc2ce2fce10"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/StreamingPCMConverterTests.swift",
+    "sha256": "c2936031552ba93552bc71da1ee20537d16ad310f17f1d165c6e57cba8299769"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/TemporaryFileCleanupTests.swift",
+    "sha256": "444f2b9869e184d0a526ae8772c849e8690a107f30ef5708d4c81426929d7181"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/TestSupport.swift",
+    "sha256": "8a0e6e553e9b088761cc33d649804b9093031c9bd1b5481edf7fd6f2ced57f43"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/TextInsertionServiceTests.swift",
+    "sha256": "53c73363a7b33984435952a45cf118f6ca6f11d6fe084d6011e0fdaec3d19f35"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/TranscriptCopyFeedbackTests.swift",
+    "sha256": "cf0d1a7b399851e591c39b0910117573d28a5eb6a1696ecd53e7704545daf3ad"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/TranscriptionCoordinatorTests.swift",
+    "sha256": "c2760de5f9f50a3602deb546fc719d6c8944a404c0b47477a59c7d44195fe390"
+  },
+  {
+    "path": "Tests/HorseWhisprerTests/WhisperCLIEngineTests.swift",
+    "sha256": "c09950224b39019a1b6d3a2b63c7d81788e163f26ddcffe7950a09b7c5fd0bb4"
+  },
+  {
+    "path": "Tests/Scripts/test_bundle_whisper.py",
+    "sha256": "d6901e772bc6ec913ec6edcabf834adef6c9cae605cda9b58740c5f6aa2da0d4"
+  },
+  {
+    "path": "Tests/Scripts/test_public_source_export.py",
+    "sha256": "1492852b3f622a724c6402c93635416ec628ad18a23ffaca1d3b693e82e9cf71"
+  },
+  {
+    "path": "docs/application-insertion.md",
+    "sha256": "a745b17728bccd8cc579a9c7bbdaef39f0eff6980e0f54b312187a38c331eecb"
+  },
+  {
+    "path": "docs/public-source.md",
+    "sha256": "69f9a1806815e88654f7abac77880083f804974b317fe2a10041d16b6db38b15"
+  },
+  {
+    "path": "project.yml",
+    "sha256": "47d83c46b677b4e43548ab350c4eb404f97ff261c3bbe1b97a2502024efb8762"
+  },
+  {
+    "path": "scripts/bootstrap_whisper.sh",
+    "sha256": "f09fd9b9419209e3bb0bea3e8d4199f471bfc6ff8be697e83869e1a9fc480a0f"
+  },
+  {
+    "path": "scripts/build_dev.sh",
+    "sha256": "37e5e0cfe72334f05022207c71b01bc40b73893655d8c4b8da9af5fc4d95f150"
+  },
+  {
+    "path": "scripts/build_release_whisper.sh",
+    "sha256": "7758bf4a83d89f9dc4e91a12187bd94f3b760eeee52c69aec748b27f773c736f"
+  },
+  {
+    "path": "scripts/bundle_whisper.py",
+    "sha256": "e442a21b2e3f63454241a24699d5bd4e6205e7ff4f03749c0970af1c13fa39b2"
+  },
+  {
+    "path": "scripts/diagnose_audio_startup.py",
+    "sha256": "800a176997eabcd1bc6d2e617eca662af8f7060f4c5756301b638990407fb69d"
+  },
+  {
+    "path": "scripts/diagnostics/AudioSignal.swift",
+    "sha256": "629ec7b6e511955c6afa7e2d759ba97b5361788a2cb39f78d1c2b3e605b512d3"
+  },
+  {
+    "path": "scripts/diagnostics/AudioStartupDiagnostic.swift",
+    "sha256": "a2f4606549508f26185aa76e074b1fc2256459deebb75900207d3b406a956c82"
+  },
+  {
+    "path": "scripts/diagnostics/ProcessOutputTap.swift",
+    "sha256": "e7b9dcb5d3c9d79ea8426a5eec1b014081d3614cafbc045e7a03323e283516d9"
+  },
+  {
+    "path": "scripts/distribute_macos.sh",
+    "sha256": "121eee235886a8b2374cdf3a71b619bf5014f68fab4be5488e76b854a68a6d5e"
+  },
+  {
+    "path": "scripts/export-options-developer-id.plist",
+    "sha256": "ab56db33e9ee9554d34760c44ae5ef196689196697481815b563ab0e26acca46"
+  },
+  {
+    "path": "scripts/export_public_source.py",
+    "sha256": "a7c5948df63eb2c2a4a54387f84c2d43fabe343eaeb8b749506e2d5f77eb4c89"
+  },
+  {
+    "path": "scripts/setup_sparkle_keys.sh",
+    "sha256": "ea6e1d260136719152e8624249bda9c2ed9c7ffb5bdca8ebc635c66c60ca8627"
+  }
+]

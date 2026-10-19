@@ -1,0 +1,6 @@
+// Copy to Config/LocalOverrides.xcconfig for machine-local overrides.
+// Note: xcconfig treats // as a comment, so URLs must use https:/$()/example.com.
+
+HORSEWHISPRER_DEVELOPMENT_TEAM = YOUR_TEAM_ID
+HORSEWHISPRER_SPARKLE_FEED_URL = https:/$()/downloads.example.com/updates/horse-whisprer.xml
+HORSEWHISPRER_SPARKLE_PUBLIC_ED_KEY = YOUR_SPARKLE_PUBLIC_ED_KEY

@@ -1,0 +1,15 @@
+.DS_Store
+
+DerivedData/
+.build/
+.xflow/
+dist/
+
+Vendor/
+Config/LocalOverrides.xcconfig
+tmp/
+
+*.xcuserstate
+xcuserdata/
+
+__pycache__/

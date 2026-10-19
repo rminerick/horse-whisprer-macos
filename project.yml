@@ -1,0 +1,115 @@
+name: HorseWhisprer
+configs:
+  Debug: debug
+  Release: release
+  Dev: debug
+options:
+  bundleIdPrefix: com.rminerick
+  deploymentTarget:
+    macOS: "26.0"
+  fileTypes:
+    icon:
+      buildPhase: resources
+settings:
+  base:
+    PRODUCT_NAME: "$(HORSEWHISPRER_PRODUCT_NAME)"
+    PRODUCT_MODULE_NAME: HorseWhisprer
+    PRODUCT_BUNDLE_IDENTIFIER: "$(HORSEWHISPRER_PRODUCT_BUNDLE_IDENTIFIER)"
+    HORSEWHISPRER_APP_DISPLAY_NAME: "$(HORSEWHISPRER_APP_DISPLAY_NAME_VALUE)"
+    HORSEWHISPRER_DISTRIBUTION_FLAVOR: "$(HORSEWHISPRER_DISTRIBUTION_FLAVOR_VALUE)"
+    SPARKLE_FEED_URL: "$(HORSEWHISPRER_SPARKLE_FEED_URL)"
+    SPARKLE_PUBLIC_ED_KEY: "$(HORSEWHISPRER_SPARKLE_PUBLIC_ED_KEY)"
+    GENERATE_INFOPLIST_FILE: NO
+    INFOPLIST_FILE: Sources/HorseWhisprer/Info.plist
+    SWIFT_VERSION: 6.0
+packages:
+  FluidAudio:
+    url: https://github.com/FluidInference/FluidAudio
+    exactVersion: 0.17.1
+  Sparkle:
+    url: https://github.com/sparkle-project/Sparkle
+    from: 2.7.1
+targets:
+  HorseWhisprer:
+    type: application
+    platform: macOS
+    configFiles:
+      Debug: Config/Common.xcconfig
+      Release: Config/Common.xcconfig
+      Dev: Config/Dev.xcconfig
+    sources:
+      - path: Sources/HorseWhisprer
+        excludes:
+          - Assets.xcassets
+          - Assets.xcassets/**
+          - Credits.rtf
+          - MenuBarHorseTemplate.png
+      - path: Sources/HorseWhisprer/Credits.rtf
+        buildPhase: resources
+      - path: Sources/HorseWhisprer/MenuBarHorseTemplate.png
+        buildPhase: resources
+      - path: AssetsSource/AppIcon.icon
+        buildPhase: resources
+    postBuildScripts:
+      - name: Bundle whisper-cli
+        script: |
+          set -euo pipefail
+          /usr/bin/python3 "${PROJECT_DIR}/scripts/bundle_whisper.py" \
+            --project-dir "${PROJECT_DIR}" \
+            --resources "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}" \
+            --frameworks "${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}/Contents/Frameworks"
+    settings:
+      base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: Sources/HorseWhisprer/HorseWhisprer.entitlements
+        DEVELOPMENT_TEAM: "$(HORSEWHISPRER_DEVELOPMENT_TEAM)"
+        ENABLE_HARDENED_RUNTIME: YES
+        CLANG_ENABLE_MODULES: YES
+    dependencies:
+      - package: FluidAudio
+        product: FluidAudio
+      - package: Sparkle
+        product: Sparkle
+  HorseWhisprerTests:
+    type: bundle.unit-test
+    platform: macOS
+    configFiles:
+      Debug: Config/Test.xcconfig
+      Release: Config/Test.xcconfig
+      Dev: Config/Test.xcconfig
+    sources:
+      - Tests/HorseWhisprerTests
+    dependencies:
+      - target: HorseWhisprer
+    settings:
+      base:
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: "$(HORSEWHISPRER_DEVELOPMENT_TEAM)"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_MODULE_NAME: HorseWhisprerTests
+        PRODUCT_NAME: HorseWhisprerTests
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Horse Whisprer.app/Contents/MacOS/Horse Whisprer"
+schemes:
+  HorseWhisprer:
+    build:
+      config: Debug
+      targets:
+        HorseWhisprer: all
+        HorseWhisprerTests: [test]
+    run:
+      config: Release
+    test:
+      config: Debug
+      environmentVariables:
+        HORSEWHISPRER_RUNNING_TESTS: "1"
+      targets:
+        - HorseWhisprerTests
+  HorseWhisprerDev:
+    build:
+      config: Dev
+      targets:
+        HorseWhisprer: all
+    run:
+      config: Dev

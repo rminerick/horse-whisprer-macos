@@ -1,0 +1,75 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.04584,0.06976,0.14722,1.00000",
+      "display-p3:0.04852,0.11560,0.24182,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "ff5f36fb315f71ae6e22b5e75b0606a8d1de02e2410486e2e01855644fcd1cd7.png",
+          "name" : "ff5f36fb315f71ae6e22b5e75b0606a8d1de02e2410486e2e01855644fcd1cd7",
+          "position" : {
+            "scale" : 1.6,
+            "translation-in-points" : [
+              -18.5625,
+              -2.8125
+            ]
+          }
+        },
+        {
+          "hidden" : true,
+          "image-name" : "d0266ced00a3b36e7e6400593fc9397be9d051b1a87ac918f22e87ce476a5504 2.png",
+          "name" : "d0266ced00a3b36e7e6400593fc9397be9d051b1a87ac918f22e87ce476a5504 2",
+          "position" : {
+            "scale" : 1.65,
+            "translation-in-points" : [
+              -80.7421875,
+              28.6875
+            ]
+          }
+        },
+        {
+          "hidden" : true,
+          "image-name" : "d0266ced00a3b36e7e6400593fc9397be9d051b1a87ac918f22e87ce476a5504.png",
+          "name" : "d0266ced00a3b36e7e6400593fc9397be9d051b1a87ac918f22e87ce476a5504",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -221.359375,
+              173.8359375
+            ]
+          }
+        },
+        {
+          "hidden" : true,
+          "image-name" : "horse.png",
+          "name" : "horse",
+          "position" : {
+            "scale" : 1.25,
+            "translation-in-points" : [
+              72,
+              85.6484375
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

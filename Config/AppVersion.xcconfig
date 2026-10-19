@@ -1,0 +1,4 @@
+// Horse Whisprer release versioning.
+// Update these values before cutting a new production release.
+CURRENT_PROJECT_VERSION = 86
+MARKETING_VERSION = 1.4.1
