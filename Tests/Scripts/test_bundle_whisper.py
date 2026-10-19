@@ -1,5 +1,7 @@
 import importlib.util
+import os
 from pathlib import Path
+import shutil
 import subprocess
 import tempfile
 import unittest
@@ -173,6 +175,56 @@ class BundleWhisperTests(unittest.TestCase):
         with mock.patch('sys.argv', argv), mock.patch.dict('os.environ', {'HORSEWHISPRER_DISTRIBUTION_FLAVOR': 'official'}), mock.patch.object(bundler.os, 'access', return_value=False):
             with self.assertRaisesRegex(bundler.BundleError, 'require a bundled'):
                 bundler.main()
+
+
+class ReleaseRuntimePrivacyTests(unittest.TestCase):
+    def test_release_runtime_redacts_c_and_cpp_paths_and_rejects_remaining_leaks(self):
+        # Exercise the real release script, CMake, both compilers, and lipo in
+        # paths containing spaces. Only the upstream revision check is stubbed.
+        with tempfile.TemporaryDirectory(prefix='private runtime build ') as temporary:
+            root = Path(temporary).resolve()
+            source = root / 'private source'
+            project = root / 'private project'
+            tools = root / 'tools'
+            for directory in (source, project / 'scripts', tools):
+                directory.mkdir(parents=True)
+            script = project / 'scripts/build_release_whisper.sh'
+            script.write_bytes((MODULE.parent / script.name).read_bytes())
+            git = tools / 'git'
+            git.write_text('#!/bin/sh\nif [ "$3" = "rev-parse" ]; then '
+                           'echo 306c88f4d1286aec1bf96e544632897886af5501; fi\n')
+            git.chmod(0o755)
+            (source / 'CMakeLists.txt').write_text('cmake_minimum_required(VERSION 3.20)\n'
+                'project(PrivacyFixture C CXX)\n'
+                'add_executable(whisper-cli main.c path.cpp)\n'
+                'set_target_properties(whisper-cli PROPERTIES '
+                'RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")\n')
+            main = source / 'main.c'
+            main.write_text('#include <stdio.h>\nconst char *cpp_file(void);\n'
+                            'int main(void) { puts(__FILE__); puts(cpp_file()); }\n')
+            (source / 'path.cpp').write_text('extern "C" const char *cpp_file(void) '
+                                           '{ return __FILE__; }\n')
+            env = {**os.environ, 'PATH': str(tools) + os.pathsep + os.environ['PATH']}
+            result = subprocess.run(['bash', str(script), str(source)], env=env,
+                                    capture_output=True, text=True, timeout=90)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            binary = project / 'Vendor/whisper-release-1.9.2/bin/whisper-cli'
+            output = subprocess.check_output([str(binary)], text=True)
+            self.assertEqual(output.splitlines(), ['whisper.cpp/main.c', 'whisper.cpp/path.cpp'])
+            self.assertNotIn(str(root).encode(), binary.read_bytes())
+            safe_binary = binary.read_bytes()
+            # A literal embedded path is not fixed by compiler prefix mapping;
+            # the release's post-build guard must reject it.
+            main.write_text('#include <stdio.h>\nint main(void) { puts("'
+                            + str(source).replace('\\', '\\\\').replace('"', '\\"') + '"); }\n')
+            # Avoid filesystem/Make timestamp resolution masking this change.
+            for arch in ('arm64', 'x86_64'):
+                shutil.rmtree(project / 'Vendor/whisper-release-1.9.2' / arch)
+            result = subprocess.run(['bash', str(script), str(source)], env=env,
+                                    capture_output=True, text=True, timeout=90)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn('Runtime contains a private source/build path', result.stderr)
+            self.assertEqual(binary.read_bytes(), safe_binary)
 
 
 if __name__ == '__main__':

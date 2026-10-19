@@ -533,7 +533,7 @@
   },
   {
     "path": "Tests/Scripts/test_bundle_whisper.py",
-    "sha256": "d6901e772bc6ec913ec6edcabf834adef6c9cae605cda9b58740c5f6aa2da0d4"
+    "sha256": "fbe5039070034da898e7c78689a4d1757fc67af8888af2f55155e1d6d64691ad"
   },
   {
     "path": "Tests/Scripts/test_public_source_export.py",
@@ -561,7 +561,7 @@
   },
   {
     "path": "scripts/build_release_whisper.sh",
-    "sha256": "7758bf4a83d89f9dc4e91a12187bd94f3b760eeee52c69aec748b27f773c736f"
+    "sha256": "680ec0f469c10c901246c962845c98e3f5e2cfa5e71ab4b88d6b335bec8f6388"
   },
   {
     "path": "scripts/bundle_whisper.py",
